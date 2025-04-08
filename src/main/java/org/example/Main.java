@@ -36,7 +36,7 @@ public class Main extends TelegramLongPollingBot {
             String text = message.getText();
             if (text.equals("/start")) {
                 try {
-                    Runtime.getRuntime().exec("wakeonlan 9C:82:B9:95:09:13");
+                    Runtime.getRuntime().exec("wakeonlan 2A:49:6F:06:17:E0");
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
@@ -57,6 +57,6 @@ public class Main extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "5956412398:AAE2ggB7nhxSTg8YuYDxOsdww1_Mhv9aXi8";
+        return "8090568112:AAH5KT1SAS5BZ1wgBPfcaOuaIs2mWLyZ3T8  ";
     }
 }
